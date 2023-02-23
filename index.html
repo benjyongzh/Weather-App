@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <header>Weather App</header>
+        
+        <form class="user-interface" action="#">
+            <input type="text" id="search-bar" name="search-bar" placeholder="Search a city">
+            <button id="search-button" type="submit">Search</button>
+        </form>
+        
+        <div class="content">
+            <div class="location"></div>
+            
+            <div class="weather-info current">
+                <div class="weather-header current">Current Weather</div>
+                
+                <div class="weather-current">
+                    <div class="current temperature"></div>
+                    <div class="current type"></div>
+                    <div class="current humidity"></div>
+                    <div class="current wind-info"></div>
+                </div>
+            </div>
+            
+            <div class="weather-info forecast">
+                <div class="weather-header forecast">Weather Forecast</div>
+
+                <div class="weather-forecast">
+            </div>
+
+            </div>
+        </div>
+
+        <footer>
+            <span>Benjamin Yong</span>
+            <span>The Odin Project</span>
+            <span>December 2022</span>
+        </footer>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
